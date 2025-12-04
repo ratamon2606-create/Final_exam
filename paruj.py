@@ -61,5 +61,5 @@ david.deliver(order2)
 print()
 
 print("Final Status:")
-print(order1.status)
-print(order2.status)
+print(f"Order for {order1.item} → {order1.status}")
+print(f"Order for {order2.item} → {order2.status}")
