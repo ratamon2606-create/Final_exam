@@ -12,7 +12,7 @@ Customer and Driver are inherited from Person class, which tell name and vehicle
 ## Project Structure
 Final/  
 │  
-├── paruj.py 
+├── paruj.py  
 └── README.md  
 
 ## How to use
