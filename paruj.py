@@ -3,7 +3,7 @@ class Person:
         self.name = name
 
     def introduce(self):
-        print(f"Hi, I'm {self.name}")
+        print(f"Hi, I'm {self.name}.")
 
 class Customer(Person):
     def __init__(self, name, address):
@@ -19,7 +19,7 @@ class Driver(Person):
         self.vehicle = vehicle
     
     def deliver(self,order):
-        print(f"{order.driver} is delivering {order.item} to {order.customer} using {self.vehicle}")
+        print(f"{order.driver} is delivering {order.item} to {order.customer} using {self.vehicle}.")
         order.status = "delivered"
 
 class DeliveryOrder:
