@@ -11,7 +11,8 @@ class Customer(Person):
         self.address = address
 
     def place_order(self, item):
-        return 0
+        order = DeliveryOrder(self.name, item)
+        return order
     
 class Driver(Person):
     def __init__(self, name, vehicle):
@@ -48,11 +49,11 @@ bob.introduce()
 david.introduce()
 print()
 
-order1 = DeliveryOrder(alice.name, "Laptop")
+order1 = alice.place_order("Laptop")
 order1.assign_driver(david.name)
 order1.summary()
 
-order2 = DeliveryOrder(bob.name, "Headphones")
+order2 = bob.place_order("Headphones")
 order2.assign_driver(david.name)
 order2.summary()
 
