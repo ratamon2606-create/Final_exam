@@ -19,4 +19,4 @@ Final/
 git clone https://github.com/ratamon2606-create/Final_exam.git
 
 ## Problem Encountered
-I do not really understand the question and what it wants me to do, so I tried my best to copy the result. Also, my computer cannot screenshot (Window+Shift+S) more than 1 time, and sadly, I already did it this morning, so I apologize for the missing picture. However, I have checked that my code's result is pretty similar to the exam.
+I do not really understand the question and what it wants me to do, so I tried my best to copy the result. Also, my computer cannot screenshot (Window+Shift+S) more than 1 time, and sadly, I already did it this morning, so I apologize for the missing picture. However, I have checked that my code's result is pretty similar to the exam. Edit: After I asked Professor Piya for help, I have added the picture now.
